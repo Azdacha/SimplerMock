@@ -59,7 +59,7 @@ class RedisMock(SimplerMock):
         except:
             return None
             
-# we change the module at redis.StrictRedis with our newely created mock
+# we change the object at redis.StrictRedis with our newely created mock
 redis.StrictRedis = RedisMock
 
 # we can then proceed with our tests
