@@ -2,7 +2,7 @@
 from setuptools import setup
 
 setup(name='simplermock',
-      version='0.1',
+      version='0.1.1',
       description='Simpler mocking',
       url='https://git.vibes.systems/azdacha/SimplerMock',
       author='Patrick Borowy',
