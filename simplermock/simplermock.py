@@ -1,9 +1,3 @@
-'''
-Simpler Mocking.
-
-Author and owner : Patrick Borowy.
-'''
-
 
 class SimplerMock:
     _instance = None
