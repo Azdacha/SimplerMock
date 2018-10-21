@@ -114,6 +114,3 @@ class BrokerTests(unittest.TestCase):
         self.assertEqual(self.redis.get('channels'), [])
 
 ```
-
-## Install
-```pip3.6 install simplermock```
