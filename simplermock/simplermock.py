@@ -20,11 +20,6 @@ class SimplerMock:
     def __getattribute__(self, attr):
         if attr not in ['attrs', 'id', 'count', '__class__']:
             self.count += 1
-            # print('\n - %s was called by %s (%d) - (%s)' % (
-            #       attr,
-            #       self,
-            #       self.count,
-            #       self.__class__.__name__))
             self.attrs.append(self.__class__.__name__ + '.' + attr)
             self.attr = self.__class__.__name__ + '.' + attr
             try:
