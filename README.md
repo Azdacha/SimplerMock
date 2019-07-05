@@ -1,4 +1,7 @@
 # SimplerMock
+
+EDIT : Sorry I didn't pay enough attention to this piece of code for a long time, will do shortly :)
+
 Straight to the fun
 
 SimplerMock is a short class that helps writing mocking for python quicker and easier.
